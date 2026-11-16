@@ -1,0 +1,3 @@
+# Copy to terraform.tfvars and adjust
+docker_host   = "npipe:////./pipe/dockerDesktopLinuxEngine"
+external_port = 8080

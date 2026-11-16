@@ -4,3 +4,11 @@ __pycache__/
 coverage.xml
 .pytest_cache/
 .ruff_cache/
+
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+.env
+tfplan
