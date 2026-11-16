@@ -77,7 +77,7 @@ jobs:
           name: docker-image
           path: /tmp
       - run: docker load -i /tmp/fastapi-image.tar
-      - uses: aquasecurity/trivy-action@0.28.0
+      - uses: aquasecurity/trivy-action@v0.36.0
         with:
           image-ref: local/fastapi-ci:scan
           format: table
